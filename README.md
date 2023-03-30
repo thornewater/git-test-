@@ -39,3 +39,14 @@
         $ git remote add origin https://github.com/[본인의 github username]/git-test.git
     ```
 7. 이후 노션 안내에 따라 Test를 진행해주세요.
+
+
+- `git init`  프로젝트 관리를 시작하기위한 명령어
+- `git remote add origin <remote repository url>`  프로젝트 폴더를 올릴 repository 에 주소 추가
+- `git add <file name>` 변경된 파일 추가
+- `git commit` 변경 사항 기록
+- `git push origin <branch name>` 변경파일 및 사항 repository에 추가하기
+- `git pull origin <branch name>` 원격 변경 사항 가져오기, 내가올린 브런치가 merge 되었을경우 사용
+- `git merge <branch name>`  다른 브랜치 변경 사항 병합
+
+
